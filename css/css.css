@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(253, 152, 152);
+}
+header {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    img {
+        width: 3%;
+        margin-top: -2%;
+    }
+}
+div1 {
+    display: flex;
+    flex-direction: column; 
+}
+div2 {
+    display: table-row;
+}
+footer {
+    background-color: black;
+}
+.footer img {
+    max-width: 3%;
+}
+
+div h1 {
+    text-align: center;
+    font-size: 450%;
+}
+
+.Objetivo {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    font-size: 21px;
+}
+.ESO {
+    display: flex;
+    margin-left: -10%;
+    text-align: center;
+    p {
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+    }
+    }
+
+    .imgprincipal {
+        width: 75%;
+        max-width: 75%;
+        height: auto;
+    }
+    .descripcionmia11 {
+        text-align: center;
+        font-size: 150%;
+        margin-top: 9%;
+    }
+    .descripcionmia12 {
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;
+    }
+    .video {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  
+    }
+
+    .estudios p {
+        text-align: center;
+    }
+
+    .imgexp {
+        width: 100%;
+        height: auto;
+    }
+    
+    .textoexp {
+        max-width: 100%;
+        text-align: center;
+    }
+    .contenedor {
+        text-align: center;
+    }
+    .boton {
+        padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff0000;
+    color: #eeff00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+    @media screen and (max-width: 500px) {
+        .imgedu {
+            width: 400px;
+            height: auto;
+
+        }
+        #merce {
+            width: 405px;
+        }
+        .estudios {
+            p {
+                font-size: 75%;
+            }
+        }
+
+        .imgexp {
+            width: 100%;
+            height: auto;
+        }
+        .exp {
+            p {
+                font-size: 50%;
+            }
+        }
+        .imgprincipal {
+            width: 350px;
+            
+        }
+        .descripcionmia11 {
+            text-align: cente;
+            font-size: 20px;
+            margin-left: 13%;
+            margin-right: 13%;
+        }
+        .descripcionmia12 {
+            text-align: justify;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .video {
+            margin-left: 0%;
+            
+        }
+    }
+    
+    
